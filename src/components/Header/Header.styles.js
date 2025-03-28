@@ -10,7 +10,7 @@ export const StyledHead = styled.div`
     justify-content: end;
     align-items: center;
 
-    background-color : #00a0ff
+    background-color:rgba(161, 320, 243, 100);
 `;
 
 

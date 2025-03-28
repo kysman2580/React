@@ -1,13 +1,12 @@
 import { Lego, Gole } from "../modules/LegoAndGole";
+import './React.css'
 
 const WhatIsReact = () => {
 
   return (
     <>
+    <div className="WhaIsReactWrap" >
       <h1>리액트란?</h1>
-
-      <Lego />
-
       <pre>
         U.I(User Interface)를 구현하기 위한 JavaScript Library
         <br />
@@ -25,6 +24,7 @@ const WhatIsReact = () => {
         NPM(Node Package Manager)라는 패키지 매니저 + JSX(Babel)문법을
         활용할 수 있음
       </pre>
+    </div>
     </>
 
   )

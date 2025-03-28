@@ -11,7 +11,7 @@ const StyledFooter = styled.div`
   justify-content: center;
   align-items : center;
 
-  background-color:rgb(169, 174, 176);
+  background-color:rgba(161, 320, 243, 100);
 
 `;
 

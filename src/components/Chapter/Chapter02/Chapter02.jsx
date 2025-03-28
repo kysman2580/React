@@ -14,7 +14,6 @@ const StyleDiv = styled.div`
 
 
 const MemberInfo = (props) => {
-    console.log(props);
     const { memberId, memberName, email, color } = props.member;
     //console.log(memberId, memberName, email);
     return (
@@ -58,7 +57,7 @@ const Chapter02 = () => {
         <>
             {response && response.length > 0 ? (
                 response.map((e) => (
-                    <MemberInfo member={e} key={e.memberId} />
+                    <MemberInfo member = {e} key={e.memberId} />
                 ))
             ) : (
                 <div>조회결과가 존재하지 않습니다.</div>
